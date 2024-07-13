@@ -1,0 +1,268 @@
+.sect {
+  margin: 10%;
+}
+header {
+  background-image: linear-gradient(rgba(4, 20, 30, 0.6),rgba(4, 20, 30, 0.6)), url(https://t4.ftcdn.net/jpg/05/65/36/03/360_F_565360370_LrWWCTxczrmwqpsPYPljiFyE4gFqpecr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  padding-top: 20px;
+}
+
+.navlist .intro {
+  position: relative;
+  z-index: 10;
+}
+
+.intro {
+  padding-top: 20%;
+  padding-left: 5%;
+  color: white;
+}
+
+.icon {
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.nobullets {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 30px;
+  gap: 20px;
+  color: white;
+}
+
+li {
+  color: rgb(92, 121, 235);
+  list-style-type: none;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.logolist {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 , h3 {
+  color: rgb(92, 121, 235);
+}
+
+.AboutMe {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin: 40px;
+  gap: 40px;
+}
+.Skills p {
+  text-align: justify;
+}
+
+#file {
+  width: 400px;
+}
+
+.Expertise {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-bottom: 10%;
+  gap: 70px;
+}
+
+#expert {
+  margin: 30px;
+}
+
+img {
+  padding-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(223, 250, 215);
+  justify-content: space-between;
+  gap: 40%;
+}
+
+.nobullets {
+  display: flex;
+  list-style-type: none;
+  padding-right: 30px;
+  gap: none;
+  color: white;
+}
+
+.hireme {
+  border-style: hidden;
+  background-color: antiquewhite;
+  margin: 50px;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+#button1, #button2, #button3 {
+  color: whitesmoke;
+  background-color: black;
+  margin-inline-start: -0%;
+  border: none;
+}
+
+.bposts {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 20px;
+  gap: 30px
+}
+
+.bposts1, .bposts2, .bposts3 {
+  border: 1pt groove rgb(232, 233, 230);
+  box-sizing: border-box;
+  flex-basis: 35%;
+  padding: 25px;
+  min-width: 300px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+.bposts1 p, .bposts2 p, .bposts3 p{
+  font-size: 20px;
+}
+
+.bposts1 img, .bposts2 img, .bposts3 img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px;
+}
+
+
+.bposts button{
+  color: rgb(118, 27, 214);
+  background-color: white;
+  margin-inline-start: -50%;
+  border:none;
+}
+
+#quote {
+  text-align: center;
+  font-size: 150%;
+  padding: 5%
+}
+.sect h2{
+  width: 100%;
+}
+
+.contact-form {
+ margin-left: 50px;
+ flex: 1;
+}
+
+.input-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#fbtn {
+display: inline-block;
+width: 70%;
+height: 40px;
+margin: 50px;
+margin-top: 0px;
+padding: 5px 5px;
+background-color: #000000;
+color: white;
+text-align: center;
+text-decoration: none;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+font-size: 15px;
+outline: none;
+justify-content: center;
+}
+
+#fbtn:hover {
+  background-color: #645c5c;
+}
+
+.fimage {
+  margin-right: 40px;
+  margin-top: auto;
+}
+
+textarea, input {
+  background-color: antiquewhite;
+  border-style: hidden;
+  margin-bottom: 30px;
+}
+
+.nobullets2{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 120px;
+  gap: 20px;
+  z-index: 10;
+}
+
+.ffooter {
+  padding-left: 50px;
+  color: black;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+  text-align: left;
+  flex-direction: row;
+}
+
+.list2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin: 40px;
+  gap: 250px;
+}
+
+textarea {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+#bt p {
+  margin-left: 50px;
+}
+
+button {
+  margin-left: 80%;
+  background-color: #000000;
+  color: white;
+}
